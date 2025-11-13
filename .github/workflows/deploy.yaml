@@ -3,7 +3,7 @@ name: CI/CD Pipeline for Global Banking App
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the main branch to deploy
+      - main  # Trigger on pushes to the main branch to deployment
 
 jobs:
   build-and-push-docker:
@@ -49,7 +49,7 @@ jobs:
           aws-region: ap-south-1  # Change to your EKS region
 
       - name: Install kubectl
-        uses: azure/setup-kubectl@v3
+        uses: azure/setup-kubectl@v4
         with:
           version: 'latest'
 

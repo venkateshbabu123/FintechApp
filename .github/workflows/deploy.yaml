@@ -3,7 +3,7 @@ name: CI/CD Pipeline for Global Banking App
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the main branch to deployment
+      - main  # Trigger on pushes to the main branch deployment
 
 jobs:
   build-and-push-docker:

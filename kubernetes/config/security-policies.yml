@@ -1,4 +1,4 @@
-# Network Policy to restrict pod communication
+# Network Policy to restrict pod communicationl
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata: 
